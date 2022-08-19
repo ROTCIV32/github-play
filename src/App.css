@@ -1,0 +1,23 @@
+body {
+  background-color: #ffffff;
+  align-items: center;
+
+  @media (max-width: 756px) {
+    align-items: center;
+  }
+}
+
+*,
+*::before,
+*::before {
+  box-sizing: border-box;
+}
+
+Link,
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 1rem;
+  cursor: pointer;
+}
